@@ -1,0 +1,11 @@
+string ql_qg_str = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss") + "    " + file_row_count.ToString().PadLeft(4)
+                              + "    " + seccw.ToString("f4").PadLeft(8) + "    " + dp_value_pa.ToString("f4").PadLeft(10) + "    " + GasSpeed.ToString("f4").PadLeft(8) + "    " + GasArea.ToString("f4").PadLeft(10)
+                              + "    " + Q_Oil.ToString("f4").PadLeft(8) + "    " + Q_Water.ToString("f4").PadLeft(8) + "    " + Q_Liquid.ToString("f4").PadLeft(8) + "    " + Q_Gas.ToString("f4").PadLeft(8);
+            ql_qg_sw.WriteLine(ql_qg_str);
+            ql_qg_sw.Flush();
+
+seccw
+Q_Oil
+Q_Water
+Q_Gas
+Q_Liquid
